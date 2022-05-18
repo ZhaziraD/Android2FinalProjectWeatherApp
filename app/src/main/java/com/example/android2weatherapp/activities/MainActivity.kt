@@ -390,7 +390,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadHourlyForecast(lon: Double, lat: Double) {
-        var apiUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=daily,minutely,current,alerts&units=metric&appid=5c6e0fbe93a07632b752699e3b368056"
+        var apiUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=daily,minutely,current,alerts&units=metric&appid=api_key"
         Ion.with(this)
                 .load(apiUrl)
                 .asJsonObject()
