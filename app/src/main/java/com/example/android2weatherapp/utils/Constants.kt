@@ -6,8 +6,8 @@ import android.net.NetworkCapabilities
 import android.os.Build
 
 object Constants {
-    const val APP_ID: String = "5c6e0fbe93a07632b752699e3b368056" //https://home.openweathermap.org/api_keys
-    const val BASE_URL: String = "http://api.openweathermap.org/data/" //http://api.openweathermap.org/data/2.5/weather?q=Almaty&appid=5c6e0fbe93a07632b752699e3b368056
+    const val APP_ID: String = "api_key" //https://home.openweathermap.org/api_keys
+    const val BASE_URL: String = "http://api.openweathermap.org/data/" //http://api.openweathermap.org/data/2.5/weather?q=Almaty&appid=api_key
     const val METRIC_UNIT: String = "metric"
 
     fun isNetworkAvailable(context: Context) : Boolean {
